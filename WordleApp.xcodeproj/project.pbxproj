@@ -14,6 +14,9 @@
 		37D788FC2C985EF400A1DE89 /* WordleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D788FB2C985EF400A1DE89 /* WordleAppTests.swift */; };
 		37D789062C985EF400A1DE89 /* WordleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D789052C985EF400A1DE89 /* WordleAppUITests.swift */; };
 		37D789082C985EF400A1DE89 /* WordleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D789072C985EF400A1DE89 /* WordleAppUITestsLaunchTests.swift */; };
+		37D789152C985FA900A1DE89 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D789142C985FA900A1DE89 /* GameController.swift */; };
+		37D789172C98604F00A1DE89 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D789162C98604F00A1DE89 /* WordList.swift */; };
+		37D7891B2C9860F700A1DE89 /* wordlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 37D7891A2C9860F700A1DE89 /* wordlist.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		37D789012C985EF400A1DE89 /* WordleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D789052C985EF400A1DE89 /* WordleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleAppUITests.swift; sourceTree = "<group>"; };
 		37D789072C985EF400A1DE89 /* WordleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37D789142C985FA900A1DE89 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		37D789162C98604F00A1DE89 /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
+		37D7891A2C9860F700A1DE89 /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,11 @@
 		37D788E92C985EF300A1DE89 /* WordleApp */ = {
 			isa = PBXGroup;
 			children = (
+				37D7891A2C9860F700A1DE89 /* wordlist.txt */,
 				37D788EA2C985EF300A1DE89 /* WordleAppApp.swift */,
+				37D789142C985FA900A1DE89 /* GameController.swift */,
 				37D788EC2C985EF300A1DE89 /* ContentView.swift */,
+				37D789162C98604F00A1DE89 /* WordList.swift */,
 				37D788EE2C985EF400A1DE89 /* Assets.xcassets */,
 				37D788F02C985EF400A1DE89 /* Preview Content */,
 			);
@@ -232,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D788F22C985EF400A1DE89 /* Preview Assets.xcassets in Resources */,
+				37D7891B2C9860F700A1DE89 /* wordlist.txt in Resources */,
 				37D788EF2C985EF400A1DE89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D788ED2C985EF300A1DE89 /* ContentView.swift in Sources */,
+				37D789172C98604F00A1DE89 /* WordList.swift in Sources */,
+				37D789152C985FA900A1DE89 /* GameController.swift in Sources */,
 				37D788EB2C985EF300A1DE89 /* WordleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
